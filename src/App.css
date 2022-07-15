@@ -1,38 +1,252 @@
-.App {
-  text-align: center;
+
+
+.pagging {
+position: absolute;
+width: 66.53px;
+height: 2px;
+left: 86px;
+top: 311px;
+background-color: #788979;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slider-container {
+width: 375px;
+height: 210px;
+background-color: #282c34;
+}
+.collections{
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'americana';
+  color:#000
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.story-paragraph{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Proxima Nova';
+  color:#000
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.slick-dots.slick-thumb {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product-image-container {
+  width: 100%;
+  height: 100%;
+}
+
+.product-image{
+  width: 500px;
+  height: 500px;
+}
+
+.stars{
+
+  color: #3E583F;
+  border-radius: 0.5px;
+  width: 16px;
+  height: 16px;
+}
+
+.rating-point{
+  font-family: 'Proxima Nova';
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.review-paragraph{
+  font-family: 'Proxima Nova';
+  font-size: 12px;
+  font-weight: 300;
+  color: #3E583F;
+  letter-spacing: 0.04rem;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+.product-info-container{
+  display: flex;
+  justify-content: start;
+}
+
+.product-info-heading {
+  font-family: 'americana';
+  font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 29px;
+color: #000;
+}
+
+.product-info-description{
+  font-family: 'Proxima Nova';
+  font-size: 12px;
+  font-weight: 300;
+  color: #3E583F;
+  letter-spacing: 0.04rem;
+}
+
+.price-container{
+  display: flex;
+  justify-content: start;
+
+}
+
+.mrp-price{
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #000;
+margin: 0.5rem;
+margin-top: 0;
+}
+
+.story-description{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+}
+.video-image{
+  background-image: url('../public/Assets/images/video\ thumbail.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.video{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.offer-price{
+  text-decoration: line-through;
+  color: #737373;
+}
+
+.offer-disscount {
+  color:#fb0606;
+}
+
+.icon{
+  width: 186px;
+height: 41px;
+margin-right: 20px;
+text-align: center;
+font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.address{
+  font-size: 14px;
+  font-weight: bold;
+  
+}
+
+.icon-2{
+  width: 100%;
+}
+
+.view-details{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+color: #2C2C2C;
+}
+
+.footer{
+  background-color: #3E583F;
+  text-align: center;
+  color: #fff;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.suggestion{
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  background-color: #788979;
+  text-align: center;
+  margin-top: 0;
+}
+
+.slider-iamge{
+  width: 100%;
+  height: 400px;
+}
+
+.custom-dots{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+
+}
+
+.custom-dots__item{
+  width: 25px;
+  height: 5px;
+  background-color: #C4C4C4;
+  margin: 0 8px;
+}
+
+.mycart{
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+  margin-top: 0;
+}
+
+.cart-container{
+  margin:20px
+}
+
+.cart-items{
+  font-weight: 500;
+}
+
+.hr-color{
+  border-color: #788979;
+  margin: 50px 0;
+}
+
+.cart-product-details{
+  display: flex;
+  padding: 10px;
+}
+.cart-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  margin-top: 100px;
 }
