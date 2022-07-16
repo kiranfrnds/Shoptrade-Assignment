@@ -73,7 +73,7 @@ background-color: #282c34;
 
 .product-info-container{
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .product-info-heading {
@@ -95,7 +95,7 @@ color: #000;
 
 .price-container{
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 
 }
 
